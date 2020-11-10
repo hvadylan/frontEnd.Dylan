@@ -73,7 +73,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -responsive-
 
-**Je opdracht:** -https://www.solebox.com/en_NL-
+**Je opdracht:** -https://www.patta.nl/-
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
