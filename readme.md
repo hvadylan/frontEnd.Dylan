@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** Dylan Kho
+**Auteur:** -jouw naam-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/homescreen-patta.svg" width="375px" alt="homescreen van patta">
+<img src="images/homescreen-patta.png" width="375px" alt="homescreen van patta">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/footwear-patta.svg" width="375px" alt="schoenen pagin van patta">
+<img src="images/footwear-patta.png" width="375px" alt="schoenen pagina van patta">
