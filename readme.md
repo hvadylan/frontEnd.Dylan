@@ -77,7 +77,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-![](images/homescreen-patta.png
+![](images/homescreen-patta.png)
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
