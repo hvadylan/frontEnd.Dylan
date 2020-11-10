@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/pattahome.jpeg" width="375px" alt="homescreen van patta">
+<img src="images/homescreen-patta.svg" width="375px" alt="homescreen van patta">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/pattanike.jpeg" width="375px" alt="schoenen pagin van patta">
+<img src="images/footwear-patta.svg" width="375px" alt="schoenen pagin van patta">
