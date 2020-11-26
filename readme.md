@@ -46,7 +46,7 @@ Ik ben alleen gekomen tot de homescreen van de mobile version.
 Ik weet niet of ik de code goed heb gedaan en vraag me nog steeds af 
 hoe ik dit ooit responsive zou moeten maken. Heb tot nu alleen gewerkt,
 met HTML en CSS. Dit is mijn eigen gecodeerde scherm. 
-![eindopdracht-0.1](images/eindopdracht-0.1.PNG)
+![eindopdracht](images/eindopdracht-0.1.JPG)
 
 ### Agenda voor meeting
 
