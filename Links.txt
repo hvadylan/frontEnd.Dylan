@@ -1,0 +1,15 @@
+Navigation
+https://webdesign.tutsplus.com/tutorials/a-comprehensive-guide-to-flexbox-sizing--cms-31948
+https://www.w3schools.com/howto/howto_js_navbar_slide.asp
+https://stackoverflow.com/questions/19026884/flexbox-center-horizontally-and-vertically
+https://stackoverflow.com/questions/5995405/how-to-center-a-navigation-bar-with-css-or-html
+
+
+Position hover
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
+https://codepen.io/dylankho/pen/qBNgwWM
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text_blocks
+https://www.w3schools.com/howto/howto_css_image_text.asp
+https://www.w3schools.com/cssref/sel_hover.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
+

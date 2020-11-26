@@ -64,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
-![breakdown](images/breakdown.jpg)
+
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-![homescreen van Patta](images/homscreen-patta.PNG)
+<img src="images/homescreen-patta.png" width="375px" alt="homescreen van patta">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-![footwear pagin van patta](images/footwear-patta.PNG)
+<img src="images/footwear-patta.png" width="375px" alt="schoenen pagin van patta">

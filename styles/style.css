@@ -3,3 +3,342 @@
   box-sizing:border-box;  
 }
 
+body {
+ margin-top: 1em;
+ margin-left: 0;
+ margin-right: 0;
+}
+
+
+article {
+  margin: 0;
+}
+
+header {
+  padding-bottom: 1em;
+}
+
+
+
+/* fonts */
+
+@font-face {
+  font-family: "Patta font";
+  src: url(../fonts/Patta.ttf);
+}
+
+@font-face {
+  font-family: "Patta bold";
+  src: url(../fonts/Helvetica\ Neue\ LT\ 75\ Bold.ttf)
+}
+
+@font-face {
+  font-family: "Patta footer";
+  src: url(../fonts/Helvetica\ Neue\ LT\ 55\ Roman.ttf)
+}
+/* navbar */
+
+.pattalogo {
+  display: block;
+  width: 7em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.navbar {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+ul.navbar li {
+  font-family: "Patta bold";
+  color: #969696;
+  padding: 1.25em;
+  font-size: 0.875em;
+  width: 100%;
+}
+/* grote text */
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Patta font";
+  margin: auto;
+  padding: 0em 0.4em 0.5em;
+  width: 100%;
+  font-size: 2.8em;
+  line-height: 1em;
+}
+
+/* eerst article  */ 
+
+#blogtext {
+  position: relative;
+  margin: 1em;
+  padding-bottom: 0.5em;
+}
+
+#blogtext h2 {
+  position: absolute;
+  font-family: "Patta font";
+  top: 3em;
+  left: 1em;
+  font-size: 1em;
+  margin: 0;
+  color: #383838;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+#blogtext p {
+  position: absolute;
+  font-family: "Patta font";
+  bottom: 1.2em;
+  left: 0.5em;
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+/* hover */ 
+.home_1 {
+  display: block;
+  width: 18em;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#blogtext:hover .home_1 {
+  opacity: 0.3;
+}
+
+#blogtext:hover .blog-text {
+  opacity: 1;
+}
+
+
+/* product iteam */
+
+.item1 {
+  position: relative;
+  margin-left: 5em;
+}
+
+.home_2 {
+  display: block;
+  width: 15em;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin: 0;
+}
+
+.item1 h2 {
+  position: absolute;
+  font-family: "Patta bold";
+  font-size: 0.8em;
+  text-transform: uppercase;
+  left: 1em;
+  padding: 0.4em;
+  top: 0.375em;
+  box-sizing: border-box; 
+  border: 0.125em solid black;
+
+}
+
+.item1:hover .home_2 {
+  opacity: 0.3;
+}
+
+.item1:hover .item-block {
+  opacity: 1;
+}
+
+.item1 p {
+  box-sizing: border-box;
+  height: 1em;
+  width: 5.375em;
+  position: absolute;
+  font-family: "Patta font";
+  bottom: 1em;
+  top: 0.625em;
+  left: 0.5em;
+  font-size: 2em;
+  text-transform:uppercase;
+  color: black;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+/* product item 2 */
+
+.item2 {
+  position: relative;
+  margin-top: 2em;
+}
+
+.home_3 {
+  display: block;
+  width: 15em;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin: 0;
+}
+
+.item2 h2 {
+  position: absolute;
+  font-family: "Patta bold";
+  font-size: 0.8em;
+  color: white;
+  text-transform: uppercase;
+  left: 1em;
+  padding: 0.4em;
+  top: 0.375em;
+  box-sizing: border-box; 
+  border: 0.125em solid black;
+  background-color: black;
+
+}
+
+.item2:hover .home_3 {
+  opacity: 0.3;
+}
+
+.item2:hover .item-block1 {
+  opacity: 1;
+}
+
+.item2 p {
+  box-sizing: border-box;
+  height: 1em;
+  width: 6em;
+  position: absolute;
+  font-family: "Patta font";
+  bottom: 1em;
+  top: 2em;
+  left: 0.5em;
+  font-size: 2em;
+  text-transform:uppercase;
+  color: black;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+/* blog post 2 */
+
+#blogtext2 {
+  position: relative;
+  margin: 1em;
+  padding-bottom: 0.5em;
+}
+
+#blogtext2 h2 {
+  position: absolute;
+  font-family: "Patta font";
+  top: 2em;
+  left: 1em;
+  font-size: 1em;
+  margin: 0;
+  color: #383838;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+#blogtext2 p {
+  position: absolute;
+  font-family: "Patta font";
+  display: block;
+  width: 2em;
+  font-size: 2em;
+  top: 0.5em;
+  left: 0.5em;
+  text-align: center;
+  color: black;
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+/* hover */ 
+.home_4 {
+  display: block;
+  width: 18em;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#blogtext2:hover .home_4 {
+  opacity: 0.3;
+}
+
+#blogtext2:hover .blog-text2 {
+  opacity: 1;
+}
+
+/* footer */ 
+
+#footer-image {
+  margin-top: 5em;
+  margin-bottom: 3em;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4.5em;
+  width: 6.25em;
+}
+
+.site-footer {
+  background-color: black;
+  height: fit-content;
+  width: 100%;
+}
+
+.site-footer ul {
+  padding: 0 2em 0;
+}
+
+
+#footer-subscribe {
+  font-family: "Patta bold";
+  color: white;
+  margin: 0;
+  font-size:  1.5em;
+  display: block;
+  width: 70%;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  position: relative;
+  left: 1.3333333333333333em;
+}
+
+.footer-category {
+  font-family: "Patta bold";
+  list-style-type: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1em;
+  line-height: 3em;
+}
+
+#emailform {
+  position: relative;
+  left: 2.6666666666666665em;
+  font-family: 'Patta footer';
+  font-size: 0.75em;
+  color: #383838;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #383838;
+  padding: 0 0 1em;
+  width: 70%;
+}
+
