@@ -1,6 +1,9 @@
 Algemeen
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://www.w3schools.com/tags/ref_pxtoemconversion.asp
+https://stackoverflow.com/questions/45962081/css-cursor-pointer-with-svg-image
+https://www.w3schools.com/cssref/sel_nth-of-type.asp
+https://stackoverflow.com/questions/20570359/how-to-display-a-list-in-two-rows#:~:text=You%20need%20to%20set%20the,for%20UL%20may%20be%20required.
 
 Navigation
 https://webdesign.tutsplus.com/tutorials/a-comprehensive-guide-to-flexbox-sizing--cms-31948
@@ -23,6 +26,21 @@ https://www.w3schools.com/cssref/pr_border-bottom.asp
 Videos
 https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
 https://www.youtube.com/watch?v=dIyVTjJAkLw
+
+Responsive
+https://grid.layoutit.com/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/forums/topic/responsive-layout-margins-and-padding-using/
+https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-multi-level-sticky-footer-with-flexbox--cms-33341
+https://www.youtube.com/watch?v=tSdq8amjMso
+https://css-tricks.com/almanac/properties/j/justify-content/
+https://alistapart.com/article/multicolumnlists/
+https://www.sitepoint.com/community/t/flexbox-2-column-2-row-repeating-list/277675
+
+javascript
+https://www.youtube.com/watch?v=dIyVTjJAkLw
+https://www.youtube.com/watch?v=8r3hGIvyP3k
+
 
 
 

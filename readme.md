@@ -6,9 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+Check links file
 
 
 
@@ -24,21 +22,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+Ik moet nog aan de bak in de vakantie, productpagina is kapot gegaan door het verwijderen
+van classes moet opnieuw ingericht worden. Gebruik maken van grid of flex verder.
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
+begonnen aan productpagina en moeite met de grid alle items staan random, hier 
+ga ik nog aan werken.
 
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Verder gekomen met homescreen.
 
 **Screenshot(s):**
 
