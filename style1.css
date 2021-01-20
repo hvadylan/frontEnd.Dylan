@@ -29,6 +29,7 @@
 
 
 /* header */
+
 header ul {
     display: flex;
     margin-top: 3em;
@@ -80,7 +81,7 @@ header ul {
   header ul li:first-of-type div{
     position: absolute;
     display: block;
-    z-index: 1;
+    z-index: 2;
     cursor: pointer;
     margin-left: 1em;
   }
@@ -135,6 +136,7 @@ header ul {
   
   header div:nth-child(2).open {
     left: .5em;
+    z-index: 1;
   }
   
   header ul li ul li {
@@ -206,7 +208,7 @@ main > section {
     flex-direction: row;
 }
 
-main section article:first-of-type {
+main  > section  >article:first-of-type {
     position: relative;
     margin: 1em;
     padding-bottom: 0.5em;
@@ -225,7 +227,7 @@ main section article:first-of-type h2 {
     opacity: 0;
 }
 
-main section article:first-of-type p {
+main > section > article:first-of-type p {
     position: absolute;
     font-family: "Patta font";
     display: block;
@@ -252,7 +254,7 @@ main section article:first-of-type:hover img {
     opacity: 0.3;
 }
 
-main section article:first-of-type:hover h2, main section article:first-of-type:hover p {
+main section > article:first-of-type:hover h2, main section > article:first-of-type:hover p {
     opacity: 1;
 }
 
@@ -268,6 +270,8 @@ main section article:nth-of-type(2) img {
     transition: .5s ease;
     backface-visibility: hidden;
     margin: 0;
+    animation: big 2s infinite;
+    animation-timing-function: ease;
 }
 
 main section article:nth-of-type(2) h2 {
@@ -290,7 +294,7 @@ main section article:nth-of-type(2):hover h2, main section article:nth-of-type(2
     opacity: 1;
   }
   
-main section article:nth-of-type(2) p {
+main > section > article:nth-of-type(2) p {
     box-sizing: border-box;
     height: 1em;
     width: 5.375em;
@@ -320,6 +324,8 @@ main section article:nth-of-type(3) img {
     transition: .5s ease;
     backface-visibility: hidden;
     margin: 0;
+    animation: turn 2s infinite;
+    animation-timing-function: ease;
 }
 
 main section article:nth-of-type(3) h2 {
@@ -677,7 +683,7 @@ main section article:nth-of-type(9) p {
 
 @media (max-width: 450px) {
 
-    main section article:nth-of-type(2) {
+    main > section article:nth-of-type(2) {
         margin: 0;
     }
 
@@ -790,6 +796,11 @@ footer section div {
 footer section:first-of-type div img {
     width: 10em;
 }
+
+footer section:first-of-type div img:hover {
+  animation: footer 5s;
+}
+
 
 footer section div p {
     font-size: 1.5em;
@@ -919,22 +930,22 @@ footer section:nth-of-type(2) div ul li a:hover::after {
 
 /*********************************** PRODUCT PAGINA BEGINT HIET *********************************/ 
 
-#productmain article {
+#productmain > section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-#productmain article div:first-of-type {
+#productmain > section div:first-of-type {
   width: 50%;
 }
 
-#productmain > article > div:nth-of-type(2) {
+#productmain > section > div:nth-of-type(2) {
   padding: 0 5%;
   width: 50%;
 }
 
-#productmain article div:nth-of-type(2) div:nth-of-type(1) {
+#productmain section div:nth-of-type(2) div:nth-of-type(1) {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -943,18 +954,22 @@ footer section:nth-of-type(2) div ul li a:hover::after {
 
 
 
-#productmain article div img {
+#productmain > section div img {
   width: 100%;
 }
 
- #productmain article div:nth-of-type(2) h1 {
+#productmain > section div img:hover {
+  animation: big 2s;
+}
+
+ #productmain section div:nth-of-type(2) h1 {
   font-family: "Patta bold";
   color: #3a3a3a;
   font-size: 2.5em;
   margin: 1em 0em;
 }
 
-#productmain article div:nth-of-type(2) section h2 {
+#productmain section div:nth-of-type(2) section h2 {
   font-family: "Patta product";
   color: #3A3A2E;
   font-size: 2em;
@@ -964,7 +979,7 @@ footer section:nth-of-type(2) div ul li a:hover::after {
   
 }
 
-#productmain article div:nth-of-type(2) section h2:hover {
+#productmain section div:nth-of-type(2) section h2:hover {
   font-family: "Patta product";
   color: #3A3A2E;
   font-size: 2em;
@@ -972,7 +987,7 @@ footer section:nth-of-type(2) div ul li a:hover::after {
   border-bottom: 8px solid black;
 }
 
-#productmain article div:nth-of-type(2) section div button {
+#productmain section div:nth-of-type(2) section div button {
   flex-grow: 1;
   flex: 0 0 25%;
   box-shadow: rgb(204, 204, 204) 0px 0px 0px 1px;
@@ -986,22 +1001,22 @@ footer section:nth-of-type(2) div ul li a:hover::after {
 }
 
 
-#productmain article div:nth-of-type(2) section div button:hover {
+#productmain section div:nth-of-type(2) section div button:hover {
   border: 2px solid black;
   transition: .2s;
 }
 
-#productmain article div:nth-of-type(2) section div button:focus {
+#productmain section div:nth-of-type(2) section div button:focus {
   background-color: black;
   color: white;
   transition: .5s;
 }
 
-#productmain > article div:nth-of-type(2) section div:nth-of-type(2) {
+#productmain > section div:nth-of-type(2) section div:nth-of-type(2) {
   width: 100%
 }
 
-#productmain article div:nth-of-type(2) section div:nth-of-type(2) button {
+#productmain section div:nth-of-type(2) section div:nth-of-type(2) button {
   outline: none;
   background-color: black;
   color: white;
@@ -1012,7 +1027,7 @@ footer section:nth-of-type(2) div ul li a:hover::after {
 
 }
 
-#productmain article div:nth-of-type(2) section div:nth-of-type(2) button:hover {
+#productmain section div:nth-of-type(2) section div:nth-of-type(2) button:hover {
   border: 1px solid black;
   background-color: white;
   color: black;
@@ -1021,7 +1036,7 @@ footer section:nth-of-type(2) div ul li a:hover::after {
   transition:  all 0.35s ease-in-out;
 }
 
-#productmain article div:nth-of-type(2) section:nth-of-type(2) ul {
+#productmain section div:nth-of-type(2) section:nth-of-type(2) ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1031,7 +1046,7 @@ footer section:nth-of-type(2) div ul li a:hover::after {
   margin-bottom: 1em;
 }
 
-#productmain article div:nth-of-type(2) section:nth-of-type(2) ul li {
+#productmain section div:nth-of-type(2) section:nth-of-type(2) ul li {
   font-family: "Patta bold";
   font-size: 1em;
   margin: 2em 0 0 0;
@@ -1040,16 +1055,31 @@ footer section:nth-of-type(2) div ul li a:hover::after {
 
 /* Description */
 
-#productmain article div:nth-of-type(2) section:nth-of-type(3) p:first-of-type {
+#productmain section div:nth-of-type(2) section:nth-of-type(3) article:first-of-type {
   font-family: "Patta product";
   font-size: 1em;
   font-weight: bold;
   line-height: 1.5em;
   margin-top: 1em;
-  line-break: auto;
 }
 
-#productmain article div:nth-of-type(2) section:nth-of-type(3) p:nth-of-type(2) {
+#productmain section div:nth-of-type(2) section:nth-of-type(3) article:first-of-type p:nth-of-type(2) {
+  white-space: pre-line;
+}
+
+#productmain section div:nth-of-type(2) section:nth-of-type(3) article:first-of-type ul li {
+  list-style-type: none;
+}
+
+#productmain section div:nth-of-type(2) section:nth-of-type(3) article:first-of-type ul li:first-of-type {
+  line-height: 5em;
+}
+
+#productmain section div:nth-of-type(2) section:nth-of-type(3) article:first-of-type ul li:last-child {
+  font-family: "Patta bold";
+}
+
+#productmain section div:nth-of-type(2) section:nth-of-type(3) article:nth-of-type(2) {
   font-family: "Patta product";
   font-size: 1em;
   font-weight: bold;
@@ -1059,7 +1089,16 @@ footer section:nth-of-type(2) div ul li a:hover::after {
   display: none;
 }
 
-#productmain article div:nth-of-type(2) section:nth-of-type(3) img {
+#productmain section div:nth-of-type(2) section:nth-of-type(3) article:nth-of-type(2) p:first-of-type, #productmain section div:nth-of-type(2) section:nth-of-type(3) article:nth-of-type(2) p:last-child {
+  font-family: "Patta bold";
+}
+
+#productmain section div:nth-of-type(2) section:nth-of-type(3) article:nth-of-type(2) p {
+  white-space: pre-line;
+}
+
+
+#productmain section div:nth-of-type(2) section:nth-of-type(3) img {
   margin-top: 1em;
   display: none;
 }
@@ -1116,86 +1155,174 @@ footer section:nth-of-type(2) div ul li a:hover::after {
 
 
 @media (max-width: 1000px) {
-  #productmain article {
+  #productmain > section {
     margin: 1em 0 0 0;
     flex-direction: column;
   }
   
-  #productmain > article div:first-of-type {
+  #productmain > section div:first-of-type {
     width: 75%;
     align-self: center;
   }
 
-  #productmain > article > div:nth-of-type(2) {
+  #productmain > section > div:nth-of-type(2) {
     width: 100%;
   }
 
-  #productmain > article div:nth-of-type(2) section:nth-of-type(3) {
+  #productmain > section div:nth-of-type(2) section:nth-of-type(3) {
     margin-bottom: 1em;
   }
 }
 
 @media (max-width: 550px) {
-  #productmain article {
+  #productmain section {
     margin: 1em 0 0 0;
     flex-direction: column;
   }
   
-  #productmain > article div:first-of-type {
+  #productmain > section div:first-of-type {
     width: 100%;
     align-self: center;
   }
 
-  #productmain > article > div:nth-of-type(2) {
+  #productmain > section > div:nth-of-type(2) {
     width: 100%;
   }
 
-  #productmain article div:nth-of-type(2) section:nth-of-type(2) ul li {
+  #productmain section div:nth-of-type(2) section:nth-of-type(2) ul li {
     font-size: .8em;
   }
 
-  #productmain > article div:nth-of-type(2) section:nth-of-type(3) {
+  #productmain > section div:nth-of-type(2) section:nth-of-type(3) {
     margin-bottom: 1em;
   }
   
 }
 
 @media (max-width: 325px) {
-  #productmain article {
+  #productmain section {
     margin: 1em 0 0 0;
     flex-direction: column;
   }
   
-  #productmain > article div:first-of-type {
+  #productmain > section div:first-of-type {
     width: 100%;
     align-self: center;
   }
 
-  #productmain > article > div:nth-of-type(2) {
+  #productmain > section > div:nth-of-type(2) {
     width: 100%;
   }
 
-  #productmain article div:nth-of-type(2) section:nth-of-type(2) ul li {
+  #productmain section div:nth-of-type(2) section:nth-of-type(2) ul li {
     font-size: .5em;
   }
 
-  #productmain article div:nth-of-type(2) section:nth-of-type(3) p:first-of-type {
-    font-size: .75em;
+  #productmain section div:nth-of-type(2) section:nth-of-type(3) article:first-of-type {
+    font-size: .7em;
   }
 
-  #productmain article div:nth-of-type(2) section:nth-of-type(3) p:nth-of-type(2) {
-    font-size: .75em;
+  #productmain section div:nth-of-type(2) section:nth-of-type(3) article:nth-of-type(2) {
+    font-size: .7em;
   }
 
-  #productmain article div:nth-of-type(2) h1 {
+  #productmain section div:nth-of-type(2) h1 {
     font-size: 2em;
   }
 
-  #productmain > article div:nth-of-type(2) section:nth-of-type(3) {
+  #productmain > section div:nth-of-type(2) section:nth-of-type(3) {
     margin-bottom: 1em;
   }
   
 }
 
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:black;
+  opacity: 1;
+  z-index: 998;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pop 7s;
+  animation-iteration-count: 1;
+  transform: translateY(-10000px)
+}
 
+.pattapop {
+  width: 10em;
+}
+
+@keyframes pop {
+0% {
+  transform: translateY(0);
+
+}
+
+25% {
+  transform: translateY(0);
+}
+
+100% {
+    transform:translateY(-10000px);
+}
+}
+
+@keyframes big {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0)
+  }
+
+  25% {
+    transform: rotate(5deg)
+  }
+
+  50% {
+    transform: rotate(-5deg)
+  }
+
+  100% {
+    transform: rotate(0)
+  }
+}
+
+@keyframes footer {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+      transform:translateX(5em);
+  }
+
+  90% {
+      transform:translateX(-5em) ;
+  }
+
+  95% {
+    transform: translateX(5em);
+  }
+
+  100% {
+    transform: translateX(0)
+  }
+
+}
 
