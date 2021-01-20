@@ -18,8 +18,8 @@ Dit ging goed de micro-interactie was makkelijker dan ik had gedacht. Verder von
 
 -screenshot(s) van je eindresultaat-
 
-![productss](images/productss.png)
-![homess](images/homess.png)
+![productss](images/images/productss.png)
+![homess](images/images/homess.png)
 
 
 
