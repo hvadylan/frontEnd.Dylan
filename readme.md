@@ -18,6 +18,9 @@ Dit ging goed de micro-interactie was makkelijker dan ik had gedacht. Verder von
 
 -screenshot(s) van je eindresultaat-
 
+![productss](images/productss.png)
+![homess](images/homess.png)
+
 
 
 ## Voortgang 3 (week 6)
@@ -62,7 +65,7 @@ Ik ben alleen gekomen tot de homescreen van de mobile version.
 Ik weet niet of ik de code goed heb gedaan en vraag me nog steeds af 
 hoe ik dit ooit responsive zou moeten maken. Heb tot nu alleen gewerkt,
 met HTML en CSS. Dit is mijn eigen gecodeerde scherm. 
-![eindopdracht-0.1](images/eindopdracht-0.1.PNG)
+![eindopdracht-0.1](images/eindopdracht-0.1.png)
 
 ### Agenda voor meeting
 
