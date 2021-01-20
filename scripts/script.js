@@ -3,12 +3,12 @@
 var hamburger = document.querySelector("header ul li:first-of-type div");
 var menuham = document.querySelector("header div:nth-child(2)");
 var submenu = document.querySelector("header div ul li:first-child");
-var descriptionBtn = document.querySelector("#productmain article div:nth-of-type(2) section:nth-of-type(2) ul li:first-of-type");
-var shippingBtn = document.querySelector("#productmain article div:nth-of-type(2) section:nth-of-type(2) ul li:nth-of-type(2)");
-var paymentBtn = document.querySelector("#productmain article div:nth-of-type(2) section:nth-of-type(2) ul li:nth-of-type(3)");
-var tekstvanDescription = document.querySelector("#productmain article div:nth-of-type(2) section:nth-of-type(3) p:first-of-type");
-var tekstvanShipping = document.querySelector("#productmain article div:nth-of-type(2) section:nth-of-type(3) p:nth-of-type(2)");
-var imgvanPayment = document.querySelector("#productmain article div:nth-of-type(2) section:nth-of-type(3) img");
+var descriptionBtn = document.querySelector("#productmain section div:nth-of-type(2) section:nth-of-type(2) ul li:first-of-type");
+var shippingBtn = document.querySelector("#productmain section div:nth-of-type(2) section:nth-of-type(2) ul li:nth-of-type(2)");
+var paymentBtn = document.querySelector("#productmain section div:nth-of-type(2) section:nth-of-type(2) ul li:nth-of-type(3)");
+var tekstvanDescription = document.querySelector("#productmain section div:nth-of-type(2) section:nth-of-type(3) article:first-of-type");
+var tekstvanShipping = document.querySelector("#productmain section div:nth-of-type(2) section:nth-of-type(3) article:nth-of-type(2)");
+var imgvanPayment = document.querySelector("#productmain section div:nth-of-type(2) section:nth-of-type(3) img");
 
 
 function openMenu () {
